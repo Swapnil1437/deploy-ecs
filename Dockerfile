@@ -35,7 +35,7 @@ FROM nginx:alpine
 WORKDIR /etc/nginx
 
 # Copy the Nginx configuration file
-COPY nginx.conf /etc/nginx/nginx.conf
+COPY config/nginx.conf /etc/nginx/nginx.conf
 
 # Expose port 80
 EXPOSE 80
