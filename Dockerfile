@@ -1,6 +1,6 @@
 # Stage 1: Build the application
 FROM node:12.2.0-alpine AS build-stage
-WORKDIR /node
+WORKDIR /app
 
 COPY . .
 
