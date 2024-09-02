@@ -1,5 +1,5 @@
 # Stage 1: Build the application
-FROM node:14 AS build-stage
+FROM node:12.2.0-alpine AS build-stage
 WORKDIR /app
 COPY package*.json ./
 RUN npm install
