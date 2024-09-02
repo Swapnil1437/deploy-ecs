@@ -26,7 +26,7 @@ jobs:
       - name: Build, tag, and push image to Amazon ECR
         id: build-image
         env:
-          ECR_REGISTRY: n3f2x9y2
+          ECR_REGISTRY: public.ecr.aws/n3f2x9y2/
           IMAGE_TAG: latest
           REPOSITORY: node-app
         run: |
